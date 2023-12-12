@@ -230,3 +230,43 @@ h1 {
     transform: translateY(0%);
   }
 }
+
+.btn {
+  display: inline-flex;
+  padding: 0.5rem;
+  border: 1px solid #6c88f9;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  background: #4662d3;
+  color: white;
+}
+
+.keyboard-wrapper {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+  background: #fff;
+  margin-bottom: 2rem;
+}
+
+.keyboard-row {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.keyboard-key {
+  padding: 0.25rem 0.5rem;
+  /* border: 1px solid #e5e7eb; */
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  align-items: center;
+  font-weight: 800;
+  background: #e5e7eb;
+  border-radius: 0.25rem;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
